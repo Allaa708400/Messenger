@@ -1,0 +1,75 @@
+[versions]
+android-design = "33.0.0"
+androidx-appcompat = "1.5.1"
+circleimageview = "3.1.0"
+com-android-application = "8.1.0-alpha11"
+com-firebaseui-firebase-ui-storage = "8.0.1"
+com-firebaseui-firebase-ui-storage2 = "6.3.0"
+com-github-lisawray-groupie-groupie = "3.6.0"
+com-github-lisawray-groupie-groupie2 = "1.6.21"
+com-github-lisawray-groupie-groupie3 = "2.10.1"
+design = "28.0.0"
+firebase-bom = "32.1.0"
+firebase-core = "21.1.1"
+firebase-ui-storage = "3.2.2"
+firebaseui-firebase-ui-storage = "8.0.2"
+github-glide = "4.13.2"
+github-groupie = "1.4.20"
+glide = "4.15.1"
+google-services = "4.3.15"
+groupie = "3.6.1"
+groupie-kotlin-android-extensions = "1.6.21"
+org-jetbrains-kotlin-android = "1.8.0"
+core-ktx = "1.9.0"
+junit = "4.13.2"
+androidx-test-ext-junit = "1.1.5"
+espresso-core = "3.5.1"
+appcompat = "1.6.1"
+material = "1.9.0"
+constraintlayout = "2.1.4"
+firebase-auth-ktx = "22.0.0"
+firebase-firestore-ktx = "24.6.1"
+firebase-storage-ktx = "20.2.0"
+
+[libraries]
+androidx-appcompat-1_5_1 = { module = "androidx.appcompat:appcompat", version.ref = "androidx-appcompat" }
+circleimageview = { module = "de.hdodenhof:circleimageview", version.ref = "circleimageview" }
+core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "core-ktx" }
+design = { module = "com.android.support:design", version.ref = "design" }
+design-33_0_0 = { module = "com.android.support:design", version.ref = "android-design" }
+firebase-bom = { module = "com.google.firebase:firebase-bom", version.ref = "firebase-bom" }
+firebase-core = { module = "com.google.firebase:firebase-core", version.ref = "firebase-core" }
+firebase-storage = { module = "com.google.firebase:firebase-storage", version.ref = "firebase-storage-ktx" }
+firebase-ui-firestore = { module = "com.firebaseui:firebase-ui-firestore", version.ref = "firebaseui-firebase-ui-storage" }
+firebase-ui-storage = { module = "com.firebaseui:firebase-ui-storage", version.ref = "firebase-ui-storage" }
+firebase-ui-storage-6_3_0 = { module = "com.firebaseui:firebase-ui-storage", version.ref = "com-firebaseui-firebase-ui-storage2" }
+firebase-ui-storage-8_0_1 = { module = "com.firebaseui:firebase-ui-storage", version.ref = "com-firebaseui-firebase-ui-storage" }
+firebase-ui-storage-8_0_2 = { module = "com.firebaseui:firebase-ui-storage", version.ref = "firebaseui-firebase-ui-storage" }
+glide = { module = "com.github.bumptech.glide:glide", version.ref = "glide" }
+glide-4_13_2 = { module = "com.github.bumptech.glide:glide", version.ref = "github-glide" }
+google-services = { module = "com.google.gms:google-services", version.ref = "google-services" }
+groupie = { module = "com.github.lisawray.groupie:groupie", version.ref = "groupie" }
+groupie-1_4_20 = { module = "com.github.lisawray.groupie:groupie", version.ref = "github-groupie" }
+groupie-1_6_21 = { module = "com.github.lisawray.groupie:groupie", version.ref = "com-github-lisawray-groupie-groupie2" }
+groupie-2_10_1 = { module = "com.github.lisawray.groupie:groupie", version.ref = "com-github-lisawray-groupie-groupie3" }
+groupie-3_6_0 = { module = "com.github.lisawray.groupie:groupie", version.ref = "com-github-lisawray-groupie-groupie" }
+groupie-databinding = { module = "com.github.lisawray.groupie:groupie-databinding", version.ref = "groupie" }
+groupie-kotlin-android-extensions = { module = "com.github.lisawray.groupie:groupie-kotlin-android-extensions", version.ref = "github-groupie" }
+groupie-kotlin-android-extensions-1_6_21 = { module = "com.github.lisawray.groupie:groupie-kotlin-android-extensions", version.ref = "groupie-kotlin-android-extensions" }
+hdodenhof-circleImageview = { module = "de.hdodenhof:circleImageview", version.ref = "circleimageview" }
+junit = { group = "junit", name = "junit", version.ref = "junit" }
+androidx-test-ext-junit = { group = "androidx.test.ext", name = "junit", version.ref = "androidx-test-ext-junit" }
+espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espresso-core" }
+appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "appcompat" }
+material = { group = "com.google.android.material", name = "material", version.ref = "material" }
+constraintlayout = { group = "androidx.constraintlayout", name = "constraintlayout", version.ref = "constraintlayout" }
+firebase-auth-ktx = { group = "com.google.firebase", name = "firebase-auth-ktx", version.ref = "firebase-auth-ktx" }
+firebase-firestore-ktx = { group = "com.google.firebase", name = "firebase-firestore-ktx", version.ref = "firebase-firestore-ktx" }
+firebase-storage-ktx = { group = "com.google.firebase", name = "firebase-storage-ktx", version.ref = "firebase-storage-ktx" }
+
+[plugins]
+com-android-application = { id = "com.android.application", version.ref = "com-android-application" }
+org-jetbrains-kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "org-jetbrains-kotlin-android" }
+
+[bundles]
+
